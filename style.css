@@ -26,10 +26,11 @@ body  {
 
 }
 .logo {
-      font-size: 0px;
+      font-size: 50px;
       color: #ededed;
       text-decoration: none;
       font-weight: 600;
+     
 }
 
 .navbar a {
