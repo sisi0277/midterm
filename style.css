@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat' sans-serif;
+
+}
+body  {
+     background: #213f52;
+     color: #ededed;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+.logo {
+      font-size: 25px;
+      color: #ededed;
+      text-decoration: none;
+      font-weight: 600;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 3s;
+}
+
+.navbar a:hover, 
+.navbar a.active  {
+    color: rgb(5, 5, 4);
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+
+
+.home-content {
+     max-width: 600px;
+}
+
+.home-content h1 {
+           font-size: 55px;
+           font-weight: 700;
+}
+
+.home-content h3 {
+          font-size: 31px;
+          font-weight: 720;
+          color: rgb(109, 109, 236);
+}
+
+.home-content p {
+         font-size: 17px;
+
+}
+
+.home-content .btn-box {
+         display: flex;
+         justify-content: space-between;
+         width: 350px;
+         height: 30px;
+         
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: rgb(226, 226, 236);
+    border: 2px solid rgb(139, 139, 160;
+    border-radius: 8px;
+    font-size: 18px;
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: 580;
+    letter-spacing: 1px;
+}
+
+.btn-box   a:nth-child(2) {
+  background: green;
+       color: #ededed;
+}
+
+.hero {
+  width: 150px;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+form {
+   
+   width: 90%;
+   max-width: 600px;
+}
+.input-group {
+      margin-bottom: 30px;
+}
+input, textarea{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+.form {
+  display:flex;
+  justify-content: center;
+}
+
