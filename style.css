@@ -26,7 +26,7 @@ body  {
 
 }
 .logo {
-      font-size: 25px;
+      font-size: 0px;
       color: #ededed;
       text-decoration: none;
       font-weight: 600;
@@ -84,7 +84,7 @@ body  {
 .btn-box a {
     display: inline-flex;
     justify-content: center;
-    align-items: center;
+    align-items: first center;
     width: 150px;
     height: 100%;
     background: rgb(226, 226, 236);
@@ -100,6 +100,7 @@ body  {
 .btn-box   a:nth-child(2) {
   background: green;
        color: #ededed;
+       
 }
 
 .hero {
@@ -113,36 +114,9 @@ body  {
 
 }
 
-}
-form
-{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-form {
-   
-   width: 90%;
-   max-width: 600px;
-}
-.input-group {
-      margin-bottom: 30px;
-}
-input, textarea{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  outline: 0;
-  border: 1px solid #fff;
-  color: #fff;
-  background: transparent;
-  font-size: 15px;
-}
 
-.form {
-  display:flex;
-  justify-content: center;
-}
 
+.logo {
+  width: 20px;
+  height: fit-content;
+}
